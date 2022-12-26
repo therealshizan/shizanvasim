@@ -1,0 +1,47 @@
+div#projectCarousel {
+    background: #1C1F21;
+    padding: 0;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    .title {
+        padding: 0rem 2rem;
+        padding-bottom: 4rem;
+    }
+    .projectSlide {
+        // border: 1px solid;
+        height: 50vh;
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        gap: 1rem;
+        background-size: cover !IMPORTANT;
+        background-position: center !important;
+        background-repeat: no-repeat !IMPORTANT;
+        cursor: pointer;
+        // padding-bottom: 0;
+        .title{
+            padding: 0;
+            color: #fff;
+            font-size: 1.5rem;
+        }
+    }
+    span.projectType {
+        color: hsl(0deg, 0%, 75%);
+        font-size: 0.9rem;
+    }
+    .projectMeta {
+        position: relative;
+        display: grid;
+        gap: 1rem;
+        // &::after {
+        //     content: "";
+        //     background: yellowgreen;
+        //     height: 100%;
+        //     width: 100%;
+        //     position: absolute;
+        //     top: 0;
+        //     left: 0;
+        // }
+    }
+}

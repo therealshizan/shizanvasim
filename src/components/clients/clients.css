@@ -1,0 +1,44 @@
+div#clients {
+  padding-top: 4%;
+  padding-bottom: 4%;
+  background: var(--custDark);
+  border-bottom: 1px solid rgba(158, 230, 52, 0.25);
+}
+div#clients .clients-row {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  align-items: center;
+  gap: 2%;
+}
+div#clients .client {
+  display: grid;
+  place-content: center;
+}
+div#clients .client img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  aspect-ratio: 1.8/1.4;
+  width: 150px;
+  filter: contrast(0.5);
+  cursor: pointer;
+}
+div#clients .client img:hover {
+  filter: invert(1) !important;
+}
+
+@media screen and (max-width: 992px) {
+  .clients-row {
+    grid-template-columns: auto auto auto !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  .clients-row {
+    grid-template-columns: auto auto !important;
+  }
+}
+@media screen and (max-width: 576px) {
+  .clients-row {
+    grid-template-columns: auto !important;
+    gap: 0 !important;
+  }
+}/*# sourceMappingURL=clients.css.map */

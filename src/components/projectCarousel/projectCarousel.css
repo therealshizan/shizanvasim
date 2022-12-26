@@ -1,0 +1,36 @@
+div#projectCarousel {
+  background: #1C1F21;
+  padding: 0;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+div#projectCarousel .title {
+  padding: 0rem 2rem;
+  padding-bottom: 4rem;
+}
+div#projectCarousel .projectSlide {
+  height: 50vh;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 1rem;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  cursor: pointer;
+}
+div#projectCarousel .projectSlide .title {
+  padding: 0;
+  color: #fff;
+  font-size: 1.5rem;
+}
+div#projectCarousel span.projectType {
+  color: hsl(0deg, 0%, 75%);
+  font-size: 0.9rem;
+}
+div#projectCarousel .projectMeta {
+  position: relative;
+  display: grid;
+  gap: 1rem;
+}/*# sourceMappingURL=projectCarousel.css.map */

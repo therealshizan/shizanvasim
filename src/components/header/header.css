@@ -1,0 +1,63 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+header #logo {
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #fff;
+}
+header .burgerBtn {
+  color: #fff;
+  cursor: pointer;
+  display: grid;
+  gap: 0.5rem;
+}
+header .burgerBtn .burger {
+  width: 2rem;
+  height: 0.1rem;
+  background: #fff;
+}
+header .navBox li {
+  border: 0;
+  width: 100%;
+  padding: 2% 0;
+}
+header .navBox a {
+  padding-left: 2rem;
+}
+header .logoBox {
+  position: relative;
+  z-index: 2;
+}
+header .burgerMenu {
+  display: initial !important;
+  z-index: 2;
+}
+header .navBox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: var(--custDark);
+  height: 100vh;
+  width: 100vw;
+  display: none;
+  align-items: center;
+  z-index: 1;
+}
+header .navBox ul {
+  display: flex;
+  flex-direction: column;
+}
+header .navBox a {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 500;
+}/*# sourceMappingURL=header.css.map */

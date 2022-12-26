@@ -1,0 +1,53 @@
+$laptop: 992px;
+$tablet: 768px;
+$phone: 576px;
+
+div#clients {
+    padding-top: 4%;
+    padding-bottom: 4%;
+    background: var(--custDark);
+    border-bottom: 1px solid rgb(158 230 52 / 25%);
+    .clients-row {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+        align-items: center;
+        gap: 2%;
+    }
+
+    .client {
+        display: grid;
+        place-content: center;
+
+        // background: yellowgreen;
+        img {
+            object-fit: contain;
+            aspect-ratio: 1.8 / 1.4;
+            width: 150px;
+            filter: contrast(0.5);
+            cursor: pointer;
+
+            &:hover {
+                filter: invert(1) !important;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: $laptop) {
+    .clients-row {
+        grid-template-columns: auto auto auto !IMPORTANT;
+    }
+}
+
+@media screen and (max-width: $tablet) {
+    .clients-row {
+        grid-template-columns: auto auto !IMPORTANT;
+    }
+}
+
+@media screen and (max-width: $phone) {
+    .clients-row {
+        grid-template-columns: auto !IMPORTANT;
+        gap: 0 !important;
+    }
+}
