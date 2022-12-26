@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/shizanvasim/static/css/main.1686740b.css",
-    "main.js": "/shizanvasim/static/js/main.a03916fb.js",
-    "static/js/787.d835fdff.chunk.js": "/shizanvasim/static/js/787.d835fdff.chunk.js",
-    "static/media/Vijay.png": "/shizanvasim/static/media/Vijay.18872e070c5d779fa5bc.png",
-    "static/media/nas.png": "/shizanvasim/static/media/nas.48bfccf99f180eecf99b.png",
-    "static/media/6.jpeg": "/shizanvasim/static/media/6.0eb477c528d360c62d12.jpeg",
-    "static/media/beyonce1.png": "/shizanvasim/static/media/beyonce1.7847cdb353f279af2325.png",
-    "static/media/eminem.png": "/shizanvasim/static/media/eminem.ffcfac9db4a9bcf40375.png",
-    "static/media/theweekend1.png": "/shizanvasim/static/media/theweekend1.b4f659aec00e44142b40.png",
-    "index.html": "/shizanvasim/index.html",
-    "main.1686740b.css.map": "/shizanvasim/static/css/main.1686740b.css.map",
-    "main.a03916fb.js.map": "/shizanvasim/static/js/main.a03916fb.js.map",
-    "787.d835fdff.chunk.js.map": "/shizanvasim/static/js/787.d835fdff.chunk.js.map"
+    "main.css": "/shizanvasimportfolio/static/css/main.66395466.css",
+    "main.js": "/shizanvasimportfolio/static/js/main.7ba6dd07.js",
+    "static/js/787.d835fdff.chunk.js": "/shizanvasimportfolio/static/js/787.d835fdff.chunk.js",
+    "static/media/Vijay.png": "/shizanvasimportfolio/static/media/Vijay.18872e070c5d779fa5bc.png",
+    "static/media/nas.png": "/shizanvasimportfolio/static/media/nas.48bfccf99f180eecf99b.png",
+    "static/media/6.jpeg": "/shizanvasimportfolio/static/media/6.0eb477c528d360c62d12.jpeg",
+    "static/media/beyonce1.png": "/shizanvasimportfolio/static/media/beyonce1.7847cdb353f279af2325.png",
+    "static/media/eminem.png": "/shizanvasimportfolio/static/media/eminem.ffcfac9db4a9bcf40375.png",
+    "static/media/theweekend1.png": "/shizanvasimportfolio/static/media/theweekend1.b4f659aec00e44142b40.png",
+    "index.html": "/shizanvasimportfolio/index.html",
+    "main.66395466.css.map": "/shizanvasimportfolio/static/css/main.66395466.css.map",
+    "main.7ba6dd07.js.map": "/shizanvasimportfolio/static/js/main.7ba6dd07.js.map",
+    "787.d835fdff.chunk.js.map": "/shizanvasimportfolio/static/js/787.d835fdff.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1686740b.css",
-    "static/js/main.a03916fb.js"
+    "static/css/main.66395466.css",
+    "static/js/main.7ba6dd07.js"
   ]
 }
