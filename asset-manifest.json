@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/shizanvasim/static/css/main.1686740b.css",
+    "main.js": "/shizanvasim/static/js/main.a03916fb.js",
+    "static/js/787.d835fdff.chunk.js": "/shizanvasim/static/js/787.d835fdff.chunk.js",
+    "static/media/Vijay.png": "/shizanvasim/static/media/Vijay.18872e070c5d779fa5bc.png",
+    "static/media/nas.png": "/shizanvasim/static/media/nas.48bfccf99f180eecf99b.png",
+    "static/media/6.jpeg": "/shizanvasim/static/media/6.0eb477c528d360c62d12.jpeg",
+    "static/media/beyonce1.png": "/shizanvasim/static/media/beyonce1.7847cdb353f279af2325.png",
+    "static/media/eminem.png": "/shizanvasim/static/media/eminem.ffcfac9db4a9bcf40375.png",
+    "static/media/theweekend1.png": "/shizanvasim/static/media/theweekend1.b4f659aec00e44142b40.png",
+    "index.html": "/shizanvasim/index.html",
+    "main.1686740b.css.map": "/shizanvasim/static/css/main.1686740b.css.map",
+    "main.a03916fb.js.map": "/shizanvasim/static/js/main.a03916fb.js.map",
+    "787.d835fdff.chunk.js.map": "/shizanvasim/static/js/787.d835fdff.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1686740b.css",
+    "static/js/main.a03916fb.js"
+  ]
+}
