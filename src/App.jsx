@@ -6,7 +6,7 @@ import Home from "./components/pages/home/Home";
 import { Routes, Route } from "react-router-dom";
 import Loader from "components/Loader";
 import { customLenis } from "modules/lenis";
-import { useEffect } from "react";
+import { useEffect } from "react"; 
 
 
 const App = () => {
