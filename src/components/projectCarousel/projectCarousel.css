@@ -20,6 +20,17 @@ div#projectCarousel .projectSlide {
   background-repeat: no-repeat !important;
   cursor: pointer;
 }
+div#projectCarousel .projectSlide::before {
+  width: 100%;
+  height: 0%;
+  content: "";
+  position: absolute;
+  background: var(--custGreen);
+  bottom: 0%;
+  background: rgba(156, 232, 71, 0.5);
+  left: 0%;
+  transition: all 0.3s ease 0s;
+}
 div#projectCarousel .projectSlide .title {
   padding: 0;
   color: #fff;
@@ -33,4 +44,8 @@ div#projectCarousel .projectMeta {
   position: relative;
   display: grid;
   gap: 1rem;
+}
+
+.projectSlide:hover::before {
+  height: 100% !important;
 }/*# sourceMappingURL=projectCarousel.css.map */

@@ -24,9 +24,9 @@ export const ProjectsData = [
         "projectThumbnail": "https://www.apple.com/newsroom/images/product/imac/standard/Apple-Self-Service-Mac-Repair-August-2022-hero_big.jpg.large.jpg"
     },
     {
-        "ProjectType": "Art",
-        "projectTitle": "Tapi Collection",
-        "projectDescription": "TAPI is a private collection in the city of Surat, a testament to the rich and colourful tapestry of India's textile and art heritage.",
-        "projectThumbnail": "https://tapicollection.org/wp-content/uploads/2022/10/tapi-upcoming.jpg"
+        "ProjectType": "Creative Agency",
+        "projectTitle": "The Glassbox",
+        "projectDescription": "A unique ad film production workflow, compliance & analytics service.",
+        "projectThumbnail": "https://theglassbox.co/wp-content/uploads/2022/03/Web-loading-newGIF.gif"
     },
 ]

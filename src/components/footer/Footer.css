@@ -1,0 +1,56 @@
+#contactMe {
+  background: var(--custDark);
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  display: grid;
+  align-items: center;
+  color: var(--custGreen);
+  gap: 4rem;
+}
+#contactMe a {
+  display: grid;
+  grid-template-columns: 10% 30% 70%;
+}
+#contactMe img {
+  width: 2rem;
+}
+#contactMe p {
+  font-size: 2rem;
+}
+#contactMe span {
+  font-size: 2rem;
+}
+#contactMe td {
+  padding: 1rem 2rem;
+}
+
+div#copyrightFooter {
+  background: yellowgreen;
+  height: 10vh;
+}
+
+#contactMe td:nth-child(1) {
+  padding-left: 0rem !important;
+}
+
+#copyright-footer {
+  font-size: 1rem !important;
+}
+
+@media screen and (max-width: 576px) {
+  #contactMe {
+    height: auto;
+  }
+  #contactMe tr {
+    display: grid;
+    grid-template-columns: 100% !important;
+    padding-bottom: 2rem;
+    gap: 0.5rem;
+  }
+  #contactMe td {
+    padding: 0 !important;
+  }
+  #contactMe p {
+    font-size: 1.2rem;
+  }
+}/*# sourceMappingURL=Footer.css.map */

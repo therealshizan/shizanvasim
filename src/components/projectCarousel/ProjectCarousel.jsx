@@ -25,9 +25,9 @@ export default function ProjectCarousel() {
       <Swiper watchSlidesProgress={true} autoplay={{ delay: 5000 }} slidesPerView={slidesPerViewCount} className="mySwiper projectSwiper">
 
         {/* All Projects Starts */}
-        {ProjectsData.map(projectData=> 
-        <SwiperSlide style={{background: `linear-gradient(45deg, #00000095, #00000095), url(${projectData.projectThumbnail})`}} className="projectSlide">
-            <div className="projectMeta">
+        {ProjectsData.map((projectData, index)=> 
+        <SwiperSlide key={index} style={{background: `linear-gradient(45deg, #00000095, #00000095), url(${projectData.projectThumbnail})`}} className="projectSlide">
+            <div className="projectMeta" data-index={index}>
             <span className="projectType">{projectData.ProjectType}</span>
             <Title titleSize="mediumTitle">{projectData.projectTitle}</Title>
             </div>

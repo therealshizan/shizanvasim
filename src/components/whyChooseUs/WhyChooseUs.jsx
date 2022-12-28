@@ -11,7 +11,7 @@ const WhyChooseUs = () => {
             <Title>Why Choose Us</Title>
             <div className="why-choose-us-container">
                 <div className="why-choose-use-row">
-                    {whyChooseUsData.map(wcu => <WhyChooseUsColumn wcuTitle={wcu.title} wcuDescription={wcu.description} wcuReadMore={wcu.readMoreLink} />)}
+                    {whyChooseUsData.map((wcu, index) => <WhyChooseUsColumn key={index} wcuTitle={wcu.title} wcuDescription={wcu.description} wcuReadMore={wcu.readMoreLink} />)}
                 </div>
             </div>
         </div>

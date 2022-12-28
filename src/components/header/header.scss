@@ -7,7 +7,7 @@ header {
     width: 100%;
     top: 0;
     left: 0;
-    z-index: 1;
+    z-index: 9;
     #logo{
         font-weight: 700;
         letter-spacing: 2px;
@@ -49,7 +49,7 @@ header {
     .navBox {
         position: fixed;
         top: 0;
-        left: 0;
+        right: 0;
         background: var(--custDark);
         height: 100vh;
         width: 100vw;
